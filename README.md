@@ -51,7 +51,7 @@ new SmoothScroll(wrapper, options);
 Especialy for React App, you can use the library like this.
 
 ```jsx
-import { SmoothScroll } from 'smoothscroll-js';
+import SmoothScroll from 'smoothscroll-js';
 ```
 
 Then you can use it in your application:
