@@ -1,7 +1,7 @@
 {
-  "name": "smoothscroll-js",
+  "name": "@dilane3/smoothscroll-js",
   "description": "A simple smooth scroll library for JavaScript.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "author": "dilane3",
   "types": "src/index.d.ts",

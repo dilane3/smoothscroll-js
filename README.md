@@ -13,13 +13,13 @@ A simple smooth scroll library for JavaScript.
 ## Installation
 
 ```bash
-npm install smoothscroll-js
+npm install @dilane3/smoothscroll-js
 ```
 
 or 
 
 ```bash
-yarn add smoothscroll-js
+yarn add @dilane3/smoothscroll-js
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ yarn add smoothscroll-js
 Genarally, you can use the library like this.
 
 ```jsx
-import SmoothScroll from 'smoothscroll-js';
+import SmoothScroll from '@dilane3/smoothscroll-js';
 ```
 
 Then you can use it in your application:
@@ -51,7 +51,7 @@ new SmoothScroll(wrapper, options);
 Especialy for React App, you can use the library like this.
 
 ```jsx
-import SmoothScroll from 'smoothscroll-js';
+import SmoothScroll from '@dilane3/smoothscroll-js';
 ```
 
 Then you can use it in your application:
