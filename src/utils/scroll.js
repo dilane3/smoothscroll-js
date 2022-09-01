@@ -1,3 +1,6 @@
+import normalizeWheel from "normalize-wheel"
+import { clamp, lerp } from "."
+
 export class SmoothScroll {
   constructor (element, opts) {
     this.element = element
@@ -35,16 +38,18 @@ export class SmoothScroll {
       this.smoothOptions.direction === 'v-'
     ) {
       this.scroll.target += event.pixelY
-    } else if (
-      this.smoothOptions.direction === 'h' ||
-      this.smoothOptions.direction === 'h-'
-    ) {
-      this.scroll.target += event.pixelX
-    }
+    } 
+    // else if (
+    //   this.smoothOptions.direction === 'h' ||
+    //   this.smoothOptions.direction === 'h-'
+    // ) {
+
+    //   console.log(event.pixelX);
+    //   this.scroll.target += event.pixelX
+    // }
   }
 
   onResize () {
-    this.offsetHeight = this.element.getBoundingClientRect().top
     this.scroll.limit = (this.element.clientHeight + this.offsetHeight) - window.innerHeight
   }
 
@@ -79,13 +84,13 @@ export class SmoothScroll {
         this.element.style.transform = `translate3D(0, ${Math.floor(this.scroll.current)}px, 0)`
         break
 
-      case 'h':
-        this.element.style.transform = `translateX(-${this.scroll.current}px)`
-        break
+      // case 'h':
+      //   this.element.style.transform = `translateX(-${this.scroll.current}px)`
+      //   break
 
-      case 'h-':
-        this.element.style.transform = `translateX(${this.scroll.current}px)`
-        break
+      // case 'h-':
+      //   this.element.style.transform = `translateX(${this.scroll.current}px)`
+      //   break
     }
   }
 }

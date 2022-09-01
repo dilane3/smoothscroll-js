@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "author": "dilane3",
-  "license": "MIT"
+  "types": "src/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "normalize-wheel": "^1.0.1"
+  }
 }
