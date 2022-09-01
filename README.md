@@ -95,7 +95,7 @@ The constructor of SmoothScroll accepts the following parameters.
 
 | Parameter | Type            | Description |
 | --------- | --------------- | ----------- |
-| direction | 'v' | 'v-'      | The direction of smooth scrolling |
+| direction | 'v' or 'v-'      | The direction of smooth scrolling |
 | smooth    | Number          | The smooth value of smooth scrolling |
 
 ## License
