@@ -1,11 +1,27 @@
 {
   "name": "smoothscroll-js",
+  "description": "A simple smooth scroll library for JavaScript.",
   "version": "1.0.0",
   "main": "src/index.js",
   "author": "dilane3",
   "types": "src/index.d.ts",
-  "license": "MIT",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dilane3/smoothscroll-js.git"
+  },
+  "homepage": "https://github.com/dilane3/smoothscroll-js.git#readme",
+  "bugs": {
+    "url": "https://github.com/dilane3/smoothscroll-js.git/issues"
+  },
   "dependencies": {
     "normalize-wheel": "^1.0.1"
-  }
+  },
+  "keywords": [
+    "smoothscroll",
+    "scroll",
+    "scrollto",
+    "smooth",
+    "vertical"
+  ]
 }

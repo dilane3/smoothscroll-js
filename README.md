@@ -100,6 +100,6 @@ The constructor of SmoothScroll accepts the following parameters.
 
 ## License
 
-MIT License
+ISC License
 
 Copyright (c) 2022 Dilane3
